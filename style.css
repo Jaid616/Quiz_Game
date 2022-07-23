@@ -1,0 +1,73 @@
+*{
+    padding: 0;margin: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color: #ffffff;
+    width:75%;
+    margin: auto;
+    height: 500px;
+    margin-top: 2rem;
+}
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    padding:  2rem 0 ;
+}
+
+.quiz{
+    width:80%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+.question{
+    font-size: 20px;
+    color: blue;
+    margin-top: 10px;
+}
+.ques_no{
+    color: black;
+    font-size: 18px;
+    
+}
+
+.radiobtn{
+    
+    margin-top: 30px;
+}
+.radio2{
+    display: flex;
+    margin: 10px;
+    
+}
+
+.option{
+    margin:revert;
+}
+
+.btnsub{
+    padding: 7px;
+    background-color: blue;
+    color: #ffffff;
+    width:100px;
+    border: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.sub{
+    margin: auto;
+    display: block;
+}
